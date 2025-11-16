@@ -1,0 +1,104 @@
+{
+  "chapterId": "4",
+  "practices": [
+    {
+      "practiceId": "practice-004",
+      "title": "Family History",
+      "passage": "The notebook stared back at me. Yellowing paper and black-and-white photographs spilled out of its sides. In handwritten Spanish, the label on its cover read \"Family History\". I opened it to the first page and began to read.\n\n\"I'm not sure what it is that I'm about to write, but I've had this idea for a number of years...\" This was clearly Grandpa's handwriting. In his basement in the suburbs outside of London I read on in silence.\n\nWithin the first few pages of the notebook, Grandpa had recounted our family's history. What I held in my hands was an oral history, consisting of diaries, letters, and newspaper cuttings from Grandpa's own youth, a treasure of research.\n\nI didn't tell Grandpa what I'd found in his basement until one day he happened to see me there, with his notebook open on the desk. My face reddened. \"I've been looking at your writing. It's very interesting.\" Out of my expectation, he broke into a wide smile, and his eyes welled up with tears. Then he began to tell me the family story, explaining the parts I didn't understand.\n\nAs both a grandson and a journalist, I asked questions that brought color to these histories. Why did my great-grandfather leave Iraq in such a hurry in the early 1900s? Why did he work as a traveling salesman in the remote Andes Mountains? Answers to these questions brought me a sense of excitement, sort of like unlocking a new world.\n\nRecently, I was traveling the country to discuss a book I wrote about my search across Argentina for traces of my great-grandfather. What I've realized by talking with others is that time and energy remain our biggest barriers to hearing our families' stories. <u>They</u> are the identities we create in worlds foreign and familiar, remembered now but forever at risk of being forgotten. I feel lucky to have asked before it's too late, before the keepers of the answers are gone.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "What did the author find in his grandpa's basement?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A long lost history book."
+            },
+            {
+              "id": "B",
+              "text": "Hidden family treasures."
+            },
+            {
+              "id": "C",
+              "text": "Stories created by Grandpa."
+            },
+            {
+              "id": "D",
+              "text": "Records of family history."
+            }
+          ],
+          "correctAnswerId": "D"
+        },
+        {
+          "id": "q-002",
+          "text": "How did Grandpa feel when he saw the author in the basement?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Embarrassed and shy."
+            },
+            {
+              "id": "B",
+              "text": "Sad and then relieved."
+            },
+            {
+              "id": "C",
+              "text": "Emotional and pleased."
+            },
+            {
+              "id": "D",
+              "text": "Annoyed but then forgiving."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-003",
+          "text": "What may the finding have inspired the author to do?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To become a better journalist."
+            },
+            {
+              "id": "B",
+              "text": "To investigate his family further."
+            },
+            {
+              "id": "C",
+              "text": "To do more international travel."
+            },
+            {
+              "id": "D",
+              "text": "To collect more dying folk stories."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-004",
+          "text": "What does the underlined word \"They\" in the last paragraph refer to?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The barriers."
+            },
+            {
+              "id": "B",
+              "text": "People we talked with."
+            },
+            {
+              "id": "C",
+              "text": "The books we wrote."
+            },
+            {
+              "id": "D",
+              "text": "Our families' stories."
+            }
+          ],
+          "correctAnswerId": "D"
+        }
+      ]
+    }
+  ]
+}

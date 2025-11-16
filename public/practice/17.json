@@ -1,0 +1,104 @@
+{
+  "chapterId": "17",
+  "practices": [
+    {
+      "practiceId": "practice-017",
+      "title": "Gifts Your Mom Will Treasure",
+      "passage": "Every holiday season, I get nostalgic(怀旧的) and take a trip down Christmas tree lane. I think about how hard my mom worked to make the holidays special. I remember how she said and proudly displayed all of the gifts she received from us. She acted as if her plastic beaded bracelet(手镯) was made of priceless stones. Year after year, whatever we gave her, she would treasure the gifts as though she was the luckiest woman on earth.\n\nThrough the years, friends come and go, but my mom is a constant, my true best friend and biggest fan. She's by my side not only for the good moments cheering me on with pride, but holding my hand and letting me use her shoulder to cry on through the bad. She refuses to give up on me even when I want to. She is always there to encourage me in the midst of life's challenges and eager to celebrate life's joys.\n\nSo as much as the salt dough ornament(装饰品) pleased her, which is in a noticeable place on her tree every year, I've increased its amount now to surprise her at Christmas. I ask myself. <u>What hasn't she done before? What is something that she would like, but would never, in a million years, buy herself?</u> Gifts mom will treasure. So for the one who knows you best and still loves you, find a great gift that will show how much you really care and value her support. Select a thoughtful gift based on what brings her the greatest enjoyment.\n\nHowever, the best gifts, I suppose, cannot be wrapped. Set aside time to spend alone with mom. It can simply be a day together doing what she enjoys most or plan a weekend getaway to a place she has always wanted to see. It will mean more to her than you may ever know. Together you will create lasting memories she will treasure for the rest of her life.\n\nWhat are your most memorable moments with your mom? For your mom, what would you value most in the holiday season?",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "Why does the author regard her mother as her best friend?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because they share the same interest in Christmas decorations."
+            },
+            {
+              "id": "B",
+              "text": "Because she always receives encouragement from her mother."
+            },
+            {
+              "id": "C",
+              "text": "Because her mother gives her a big surprise at every Christmas."
+            },
+            {
+              "id": "D",
+              "text": "Because they are pleased with whatever gifts they give each other."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-002",
+          "text": "What can we infer from the underlined sentences in the third paragraph?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The author's mother never gets something for nothing."
+            },
+            {
+              "id": "B",
+              "text": "The author's mother has always been giving rather than taking."
+            },
+            {
+              "id": "C",
+              "text": "The author feels ashamed of having kept her mother working too hard."
+            },
+            {
+              "id": "D",
+              "text": "The author bitterly regrets having cared little for her mother in the past."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-003",
+          "text": "In the author's opinion, what's the best gift for moms?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Lasting memories."
+            },
+            {
+              "id": "B",
+              "text": "Long holiday seasons."
+            },
+            {
+              "id": "C",
+              "text": "Time with their children."
+            },
+            {
+              "id": "D",
+              "text": "Things moms never buy in person."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-004",
+          "text": "What would be the best title for the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Gifts Your Mom Will Treasure"
+            },
+            {
+              "id": "B",
+              "text": "How to Make Holidays Special"
+            },
+            {
+              "id": "C",
+              "text": "Memorable Moments with Your Mom"
+            },
+            {
+              "id": "D",
+              "text": "Mom-A Strong Supporter and the Best Friend"
+            }
+          ],
+          "correctAnswerId": "A"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "chapterId": "3",
+  "practices": [
+    {
+      "practiceId": "practice-003",
+      "title": "Career Ambitions and Reality",
+      "passage": "What do you want to be when you are growing up? A doctor, an engineer — or maybe a footballer or actor? We all have big plans for our futures and believe there is a dream job waiting for us — one that will pay well and give great job satisfaction. But how realistic is that?\n\nToday, in the UK at least, young people are being warned that some of their career hopes and dreams don't match the types of jobs available. Research by the charity Education and Employers suggests five times as many 17 and 18 year-olds in the UK want to work in art, culture, entertainment and sport than there are jobs.\n\nThe excitement of working in these employment sectors(部门) is obviously an attraction. But those looking for these types of job will be disappointed. That's what the report, Disconnected: Career ambitions and jobs in the UK, says. Writing about this for the BBC, Katherine Sellgren points out that although young people are keen to work in art, entertainment, culture and sport, the economy is unlikely to need them all. At the same time, there is a shortfall of young people wanting to work in careers such as catering and retail (零售).\n\nPrevious research about the career ambitions of young people by the Office for National Statistics also found a <u>\"reality gap\"</u> between their dreams and the sometimes disappointing truth by the time they reached their early to late-20s. Apart from those who aimed to go into teaching, fewer than one in 50 were in the jobs they had wanted — such as a doctor, vet, firefighter or actor. Most were working as sales assistants, careers or in sales and marketing.\n\nAlthough it's good to have ambitions, the aims of young people need to be realistic. This latest report suggests that children need to be made more aware of a wider variety of occupations at a younger age. It also calls for improved career advice in secondary schools. A spokeswoman for the Department for Work and Pensions told the BBC that \"early careers advice can help young people set out on the right path to the job that channels their interests and unlocks their potential.\"",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "Which employment sector in the UK needs more people to work in?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sport."
+            },
+            {
+              "id": "B",
+              "text": "Service industry."
+            },
+            {
+              "id": "C",
+              "text": "Art & culture."
+            },
+            {
+              "id": "D",
+              "text": "Entertainment."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-002",
+          "text": "The underlined phrase \"reality gap\" in Paragraph 4 refers to the difference between",
+          "options": [
+            {
+              "id": "A",
+              "text": "ambition and reality"
+            },
+            {
+              "id": "B",
+              "text": "males and females"
+            },
+            {
+              "id": "C",
+              "text": "theory and practice"
+            },
+            {
+              "id": "D",
+              "text": "the past and the present"
+            }
+          ],
+          "correctAnswerId": "A"
+        },
+        {
+          "id": "q-003",
+          "text": "What suggestions about employment are NOT given to help young people?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They ought to be offered better career advice in secondary schools."
+            },
+            {
+              "id": "B",
+              "text": "They should know more kinds of jobs at an early age."
+            },
+            {
+              "id": "C",
+              "text": "The government should create more jobs for the young."
+            },
+            {
+              "id": "D",
+              "text": "Their employment ambition should be realistic."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-004",
+          "text": "What can be a suitable title for the text?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Unemployment Problems in Britain"
+            },
+            {
+              "id": "B",
+              "text": "Young People's Lifestyles in Britain"
+            },
+            {
+              "id": "C",
+              "text": "Tips for Finding Dream Jobs in Britain"
+            },
+            {
+              "id": "D",
+              "text": "Unrealistic Career Ambitions in Britain"
+            }
+          ],
+          "correctAnswerId": "D"
+        }
+      ]
+    }
+  ]
+}

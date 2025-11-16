@@ -1,0 +1,81 @@
+{
+  "chapterId": "7",
+  "practices": [
+    {
+      "practiceId": "practice-007",
+      "title": "Finnair Welcome Letter",
+      "passage": "Dear Tommy,\n\nI am Ole Orver, Finnair's chief commercial officer. It's my pleasure to warmly welcome you back to the skies with Finnair. I'd like to reflect on some of the developments that we hope you find exciting and helpful:\n\n• This summer season you can fly with Finnair to over 70 European and five US destinations. In Asia, we serve eight cities, including Guangzhou and newly added Mumbai starting 6 August. We operate over 300 daily flights and I'm excited about the addition of Seattle and Dallas to our US network.\n\n• Travel is recovering everywhere, and airports around the world are working hard to manage increased traffic volumes. It is a good idea to reserve some extra time at the airport before your flight. We are doing our very best together with our partners both at Helsinki and in our outstations to offer you a smooth travel experience during this popular travel season.\n\n• You are again able to offset(碳补偿) flight carbon emissions, this time with a service that combines sustainable aviation(航空) fuel and certified climate projects. We at Finnair have ambitious emissions targets and our customers wish for a simple and transparent way to contribute.\n\n• Finnair Plus turned 30 in May. We are committed to developing the programme further to serve you in the best possible way. To make your flight bookings smoother, we recently upgraded the experience of booking award flights in the Finnair app.\n\nFinally, I'd like to thank you for your patience when we haven't got things quite right. Wherever you're travelling in the next few months, I hope it's memorable. Thank you for flying Finnair.\n\nKind Regards\n\nOle Orver",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "Which city is a new addition to the Finnair's Asian network?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Guangzhou."
+            },
+            {
+              "id": "B",
+              "text": "Mumbai."
+            },
+            {
+              "id": "C",
+              "text": "Seattle."
+            },
+            {
+              "id": "D",
+              "text": "Dallas."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-002",
+          "text": "What is Finnair doing to help the environment?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Launching a climate project."
+            },
+            {
+              "id": "B",
+              "text": "Developing sustainable fuels."
+            },
+            {
+              "id": "C",
+              "text": "Donating to a green programme."
+            },
+            {
+              "id": "D",
+              "text": "Offering a carbon offset service."
+            }
+          ],
+          "correctAnswerId": "D"
+        },
+        {
+          "id": "q-003",
+          "text": "Why does Finnair write this letter to Tommy?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To express sincere gratitude."
+            },
+            {
+              "id": "B",
+              "text": "To introduce new routes."
+            },
+            {
+              "id": "C",
+              "text": "To apologize for bad service."
+            },
+            {
+              "id": "D",
+              "text": "To keep a regular customer."
+            }
+          ],
+          "correctAnswerId": "D"
+        }
+      ]
+    }
+  ]
+}

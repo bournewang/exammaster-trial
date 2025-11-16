@@ -1,0 +1,104 @@
+{
+  "chapterId": "22",
+  "practices": [
+    {
+      "practiceId": "practice-022",
+      "title": "Working at Moonmilk",
+      "passage": "Earlier this year, I was looking for part-time work. Moonmilk, a cake and ice cream shop nearby, was hiring, so I went in for a trial shift(轮班). While I originally just set out to earn some extra money during the summer, the bonds and memories I made there turned out to be more valuable than any paycheck.\n\nOnce, a man who works for the union of the local movie theater came in to place an order. He wanted a cake to celebrate a victory he'd had in stopping the theater from being kicked out by its landlord. Moonmilk's owner was touched by the story and refused payment for the cake. Later, the union leader — so moved by the gesture - delivered free movie tickets to Moonmilk staff. The older women customers are among my favorites. Their concern is <u>poignant</u>; they often wonder if I'm okay and tell me I look tired.\n\nOne regular, always alone and smiling, is kind and generous, always declaring we have the best ice cream in the city. There's also the guy who comes frequently to ask if we have the chocolate orange flavor — that we only ever have at Christmas. I always have to say no, but his persistence brings me joy, especially on days when I'm tired. As with any job, there are unpleasant moments. My wrist often hurts from repeatedly scooping out ice cream, and it's always annoying when a group of people come in and take way too long to order, holding up all the others waiting. Worse still, in the fall, my full-time job's schedule becomes more demanding and I know I'll have to scale back my shifts. I will run into my favorite customers less often.\n\nBut my experience working at Moonmilk has offered much more than just a paycheck. It has helped me feel more connected to my local community. The interactions and connections I've made will sustain me until at least next summer.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "What initially drew the author to work at Moonmilk?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A love for cake and ice cream."
+            },
+            {
+              "id": "B",
+              "text": "The chance to earn extra money."
+            },
+            {
+              "id": "C",
+              "text": "A personal connection to the shop."
+            },
+            {
+              "id": "D",
+              "text": "The manager's engaging personality."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-002",
+          "text": "What does the underlined word \"poignant\" in paragraph 2 most probably mean?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Heartwarming."
+            },
+            {
+              "id": "B",
+              "text": "Surprising."
+            },
+            {
+              "id": "C",
+              "text": "Distracting."
+            },
+            {
+              "id": "D",
+              "text": "Embarrassing."
+            }
+          ],
+          "correctAnswerId": "A"
+        },
+        {
+          "id": "q-003",
+          "text": "What trouble does the author encounter at work?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bad-tasting ice cream."
+            },
+            {
+              "id": "B",
+              "text": "Far-off job destination."
+            },
+            {
+              "id": "C",
+              "text": "Constant physical pain."
+            },
+            {
+              "id": "D",
+              "text": "Numerous customer demands."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-004",
+          "text": "What lasting effect does the job at Moonmilk have on the author?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Renewed purpose awareness."
+            },
+            {
+              "id": "B",
+              "text": "Strengthened social participation."
+            },
+            {
+              "id": "C",
+              "text": "Advanced financial independence."
+            },
+            {
+              "id": "D",
+              "text": "Improved working competence."
+            }
+          ],
+          "correctAnswerId": "B"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "chapterId": "9",
+  "practices": [
+    {
+      "practiceId": "practice-009",
+      "title": "Libraries: More Than Books",
+      "passage": "When I was small, my mother and I would walk to our local library in Franklin Square. As we didn't always have access to a reliable car, walking hand in hand was the most convenient way to get anywhere. It was at story time for children that both my mother and I made lasting friendships.\n\nToday, I am fortunate to live around the corner from the Gold Coast Public Library in Glen Head and a short walk to the Sea Cliff Children's Library. My 18-month-old son, Colin, and I find ourselves in Sea Cliff several times a week, meeting and making friends. Well, <u>that</u> is what many people don't understand — a library is more than books; it's a community.\n\nSure, the library in Franklin Square was the place where I was introduced to Judy Blume novels. But it was also the place where I got my first e-mail address in 1997. At the library, friends and I learned how to research colleges and search for scholarships on the Internet. The library was the place where we sometimes giggled(咯咯地笑) too loudly, and where the librarians knew us by name. Their knowing our names wasn't a bad thing. When I came home from my first term at Binghamton University, Mary LaRosa, the librarian at the Franklin Square library offered me my first teaching job.\n\nI now teach reading at Nassau Community College. My students are often amazed that they can check out books via their smartphones and virtually visit a variety of Long Island libraries. The app used by Nassau and Suffolk county public libraries, as well as the college library, makes their homework easier by helping them find resources. Even though they can't always easily visit their local libraries, the library is always with them.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "Why does the author consider herself lucky today?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She has become her mother's best friend."
+            },
+            {
+              "id": "B",
+              "text": "She has access to a reliable car now."
+            },
+            {
+              "id": "C",
+              "text": "She lives close to libraries."
+            },
+            {
+              "id": "D",
+              "text": "She can meet friends at the library."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-002",
+          "text": "What does the underlined phrase in paragraph 2 refer to?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Socializing in a library."
+            },
+            {
+              "id": "B",
+              "text": "Reading books in a library."
+            },
+            {
+              "id": "C",
+              "text": "Visiting a library with a family member."
+            },
+            {
+              "id": "D",
+              "text": "Building parent-child friendship in a library."
+            }
+          ],
+          "correctAnswerId": "A"
+        },
+        {
+          "id": "q-003",
+          "text": "What did the author do at the library according to the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "She told stories to her mother."
+            },
+            {
+              "id": "B",
+              "text": "She learned how to go online."
+            },
+            {
+              "id": "C",
+              "text": "She got her current teaching job."
+            },
+            {
+              "id": "D",
+              "text": "She initially read Judy Blume novels."
+            }
+          ],
+          "correctAnswerId": "D" 
+        },
+        {
+          "id": "q-004",
+          "text": "What is the author's attitude to her students' way of visiting libraries?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cautious."
+            },
+            {
+              "id": "B",
+              "text": "Ambiguous."
+            },
+            {
+              "id": "C",
+              "text": "Disapproving."
+            },
+            {
+              "id": "D",
+              "text": "Favourable."
+            }
+          ],
+          "correctAnswerId": "D"
+        }
+      ]
+    }
+  ]
+}

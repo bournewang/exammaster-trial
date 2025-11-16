@@ -1,0 +1,81 @@
+{
+  "chapterId": "8",
+  "practices": [
+    {
+      "practiceId": "practice-008",
+      "title": "Travel Destinations for Seniors",
+      "passage": "Here are four travel destinations often considered ideal for seniors.\n\n## Cape Town, South Africa\n\nBest Time: Spring (September to November) and autumn (March to May) offer mild weather.\n\nAttractions: Table Mountain, and Kirstenbosch National Botanical Garden.\n\nTicket Prices: Table Mountain Cableway costs $20 for adults, and Kirstenbosch National Botanical Garden is around $8.\n\nConsiderations: It's relatively flat, making it easier for seniors to get around. But its transportation is sometimes annoying. Free English-speaking guides are available.\n\n## Venice, Italy\n\nBest Time: Late spring (April to May) or early fall (September to October) to avoid the peak tourist season.\n\nAttractions: St. Mark's Square, and Doge's Palace.\n\nTicket Prices: A Vaporetto (water bus) pass for 24 hours is $20 and individual museum tickets vary.\n\nConsiderations: Venice is smooth and very walkable, but it's essential to wear comfortable shoes.\n\n## Havana, Cuba\n\nBest Time: Winter (December to April) with some of the island's most comfortable temperatures.\n\nAttractions: Old Havana and the Malecón. The pub La Bodeguita del Medio is well worth a visit. It was originally known as Casa Martinez, after its owner Angel Martinez, who opened it in 1942. Many well-known writers, musicians, and artists frequented this place, including Pablo Neruda and Hemingway.\n\nTicket Prices: Many historical sites are free or have a small entrance fee, and a classic car tour might cost $30.\n\nConsiderations: The city is level and walkable.\n\n## Kyoto, Japan\n\nBest Time: Late fall (November) for the autumn leaves or spring (March to April) for cherry blossoms.\n\nAttractions: Kinkakuji, and Fushimi Inari Shrine. It provides paid multilingual(多语言) tour guide services, including Japanese, English, Chinese, and Korean.\n\nTicket Prices: Entrance to Kinkakuji is $4, and many temples have a small admission fee.\n\nConsiderations: It's flat and comfortable to go around; its public transportation is excellent, too.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "What is the best time to visit Cape Town and Venice?",
+          "options": [
+            {
+              "id": "A",
+              "text": "March."
+            },
+            {
+              "id": "B",
+              "text": "April."
+            },
+            {
+              "id": "C",
+              "text": "July."
+            },
+            {
+              "id": "D",
+              "text": "December."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-002",
+          "text": "Why is La Bodeguita del Medio especially recommended?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It's the world's oldest restaurant."
+            },
+            {
+              "id": "B",
+              "text": "It was named after its owner."
+            },
+            {
+              "id": "C",
+              "text": "It once received many great people."
+            },
+            {
+              "id": "D",
+              "text": "It offers a free classic car tour."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-003",
+          "text": "What do the four cities have in common?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Their weather is always mild."
+            },
+            {
+              "id": "B",
+              "text": "Their transportation is convenient."
+            },
+            {
+              "id": "C",
+              "text": "They offer free tour guide services."
+            },
+            {
+              "id": "D",
+              "text": "They are flat and suitable for walking."
+            }
+          ],
+          "correctAnswerId": "D"
+        }
+      ]
+    }
+  ]
+}

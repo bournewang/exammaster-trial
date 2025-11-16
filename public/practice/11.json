@@ -1,0 +1,104 @@
+{
+  "chapterId": "11",
+  "practices": [
+    {
+      "practiceId": "practice-011",
+      "title": "Calm Technology",
+      "passage": "It seems like technology is everywhere. Computers and smart phones are at the center of almost everything we do. They constantly require our attention. We text our friends with them during the day, sleep with them by our beds and check our messages as soon as we wake up.\n\nIn the future, technology will no longer be **<u>interrupting</u>** us all the time. Instead, we will use calm technology which was first developed by scientist Mark Weiser in the 1970s. In his opinion, calm technology works quietly but constantly. We know it is there, but we don't pay much attention to it. According to Mark, the best technology should be invisible(隐形的) and let you live your life.\n\nWe already use many different types of calm technology in our everyday lives. Do you have a smoke alarm in your house? That smoke alarm is always there, checking the air for smoke and quietly keeping you safe. It only reminds you it's there when you've burnt your bread! Or there may be lights in your home or school. When somebody passes in front of their sensors, the lights turn on. You don't think about this type of technology until you see the light go on.\n\nIn the future, we can imagine our houses will use calm technology to open the curtains for us in the morning, to turn down the heat when we leave, or even to choose the best music for our mood. The minute we walk through the door, our house will respond by turning on the lights and music, and perhaps even starting to prepare our dinner!",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "Which of the following is an example of calm technology?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A computer."
+            },
+            {
+              "id": "B",
+              "text": "A smart phone."
+            },
+            {
+              "id": "C",
+              "text": "A radio."
+            },
+            {
+              "id": "D",
+              "text": "A smoke alarm."
+            }
+          ],
+          "correctAnswerId": "D"
+        },
+        {
+          "id": "q-002",
+          "text": "What does the underlined word \"interrupting\" mean?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Troubling."
+            },
+            {
+              "id": "B",
+              "text": "Protecting."
+            },
+            {
+              "id": "C",
+              "text": "Helping."
+            },
+            {
+              "id": "D",
+              "text": "Hurting."
+            }
+          ],
+          "correctAnswerId": "A"
+        },
+        {
+          "id": "q-003",
+          "text": "What's the main idea of the third paragraph?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Calm technology keeps us safe in many ways."
+            },
+            {
+              "id": "B",
+              "text": "Calm technology can help you to do housework."
+            },
+            {
+              "id": "C",
+              "text": "Calm technology has been used in our daily lives."
+            },
+            {
+              "id": "D",
+              "text": "Calm technology plays an important part in schools."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-004",
+          "text": "What can we infer from the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The light won't go on unless we touch the sensor."
+            },
+            {
+              "id": "B",
+              "text": "Calm technology will make our life more convenient."
+            },
+            {
+              "id": "C",
+              "text": "People will depend more on smart phones in the future."
+            },
+            {
+              "id": "D",
+              "text": "People won't have to work because of calm technology."
+            }
+          ],
+          "correctAnswerId": "B"
+        }
+      ]
+    }
+  ]
+}

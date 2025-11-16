@@ -1,0 +1,127 @@
+{
+  "chapterId": "10",
+  "practices": [
+    {
+      "practiceId": "practice-010",
+      "title": "Opinions on Life Skills Education",
+      "passage": "Although students are busy studying, it's important to remember another area of study — life skills, such as washing clothes and growing vegetables. They're useful in our daily lives. Here are some opinions about life skills education.\n\n**Mrs. Blair:** Children need to learn most of the life skills at school. As parents, we can help them take part in activities around the house and in the <u>neighbourhood</u>.\n\n**Li Ping:** We have life skills classes at school. They're quite useful. They help prepare for everyday real-life situations, from washing dishes to preparing a meal. These classes give us knowledge we need to live on our own.\n\n**Mary:** Having life skills classes at school is important. Besides, there are other ways for us to learn life skills. We can watch videos on the Internet. We can also learn from our parents and take part in the activities with them.\n\n**Kevin:** I'm not sure whether it's necessary because I haven't tried life skills classes yet. In my school, many students pay no attention to learning life skills. They don't think it'll improve their chances of getting into college.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "What does the underlined word \"neighbourhood\" mean in Chinese?",
+          "options": [
+            {
+              "id": "A",
+              "text": "社团"
+            },
+            {
+              "id": "B",
+              "text": "邻区"
+            },
+            {
+              "id": "C",
+              "text": "体育场"
+            },
+            {
+              "id": "D",
+              "text": "公寓"
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-002",
+          "text": "Why do many students pay no attention to learning life skills according to Kevin's opinion?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Because they are not interested in it."
+            },
+            {
+              "id": "B",
+              "text": "Because they think it's helpless for attending college."
+            },
+            {
+              "id": "C",
+              "text": "Because they are not sure what to learn."
+            },
+            {
+              "id": "D",
+              "text": "Because they think it's useless to improve living level."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-003",
+          "text": "According to Li Ping, what can we get from life skills education?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Knowledge for college."
+            },
+            {
+              "id": "B",
+              "text": "Chances to help our neighbours."
+            },
+            {
+              "id": "C",
+              "text": "Knowledge for living alone."
+            },
+            {
+              "id": "D",
+              "text": "Chances to learn from our parents."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-004",
+          "text": "Who have the same opinion on life skills education according to the text?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Li Ping, Kevin and Mary."
+            },
+            {
+              "id": "B",
+              "text": "Mrs. Blair, Kevin and Mary."
+            },
+            {
+              "id": "C",
+              "text": "Mrs. Blair, Li Ping and Kevin."
+            },
+            {
+              "id": "D",
+              "text": "Mrs. Blair, Li Ping and Mary."
+            }
+          ],
+          "correctAnswerId": "D"
+        },
+        {
+          "id": "q-005",
+          "text": "What's the best title of the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Opinions on Life Skills Education"
+            },
+            {
+              "id": "B",
+              "text": "Activities at School"
+            },
+            {
+              "id": "C",
+              "text": "The Importance of Knowledge"
+            },
+            {
+              "id": "D",
+              "text": "Chances of Getting into College"
+            }
+          ],
+          "correctAnswerId": "A"
+        }
+      ]
+    }
+  ]
+}

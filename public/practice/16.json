@@ -1,0 +1,104 @@
+{
+  "chapterId": "16",
+  "practices": [
+    {
+      "practiceId": "practice-016",
+      "title": "The Modern Picnic",
+      "passage": "The hottest table reservation is now outdoors. From Instagram-worthy settings in city parks to car boots pulling out fancy tablecloths, cushions and flatware, picnics are no longer the domain of simple sandwiches or ready-made meals. They're catered events. Picnics have caught the imagination of Generation Z, who, according to Pinterest, are now often choosing picnic over restaurants and movie nights.\n\nToday's picnics may focus on clean living and fresh air, but the word \"picnic\" has far more raucous(吵闹的) beginnings. The word pique-nique first appeared in a 17th-century French poem that featured a character called Pique-Nique. Among French aristocracy, the term came to mean a dinner where everyone brought food and drink to share. With industrialization and the growth of cities in the late 18th and early 19th centuries, an escape to the country became fashionable, and the picnic moved outside. Picnics were no longer about indoor parties, but healthy living. In the 1830s, city-dwelling Americans started to copy Europeans, throwing down their picnic rugs in parks to embrace the countryside vibe. The modern picnic, laying a blanket down on the ground and toting your food in a cooler, came in the late 1950s and 1960s with car tourism.\n\nMany countries have long used a picnic to mark an occasion, such as the Japanese tradition of picnicking under flowering trees during the centuries-old cherry blossom festivals, or the Finnish herring picnic on May Day. Now, some new companies want to spread the idea of a picnic as a special event.\n\nWhat unites all picnics throughout the years is the element of delight and the sense that no matter what you eat, serve or do, you can never go wrong. Even if you've forgotten the corkscrew or the salad dressing, or it starts to rain, this only serves to increase the fun rather than diminish it.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "What do Generation Z think of picnic according to paragraph 1?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They should make sandwiches for their picnics."
+            },
+            {
+              "id": "B",
+              "text": "They can get picnic ideas from their imagination."
+            },
+            {
+              "id": "C",
+              "text": "They prefer picnics to restaurants and movie nights."
+            },
+            {
+              "id": "D",
+              "text": "They can swim and enjoy flowers during picnic time."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-002",
+          "text": "What does paragraph 2 mainly talk about?",
+          "options": [
+            {
+              "id": "A",
+              "text": "What picnics were about in the history."
+            },
+            {
+              "id": "B",
+              "text": "What people focus on today in picnics."
+            },
+            {
+              "id": "C",
+              "text": "Why the picnic moved outside later."
+            },
+            {
+              "id": "D",
+              "text": "How going on a picnic became popular."
+            }
+          ],
+          "correctAnswerId": "A"
+        },
+        {
+          "id": "q-003",
+          "text": "Which of the following statement is wrong according to the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pique-Nique was a character in a 17th century French poem."
+            },
+            {
+              "id": "B",
+              "text": "Picnics were originally indoor parties for French aristocracy."
+            },
+            {
+              "id": "C",
+              "text": "Europeans copied Americans and went for a picnic in the countryside."
+            },
+            {
+              "id": "D",
+              "text": "People in the late 1950s toted food in a cooler when going for a picnic."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-004",
+          "text": "What can we learn from the last two paragraphs?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Japanese people have a longer tradition of going for a picnic than Finnish people."
+            },
+            {
+              "id": "B",
+              "text": "Picnics can bring people joy and have no standard about what they eat and do."
+            },
+            {
+              "id": "C",
+              "text": "People should go on a picnic during rainy days in order to have more pleasure."
+            },
+            {
+              "id": "D",
+              "text": "Many companies promote the idea of going on picnics so as to make more money."
+            }
+          ],
+          "correctAnswerId": "B"
+        }
+      ]
+    }
+  ]
+}

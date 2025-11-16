@@ -1,0 +1,81 @@
+{
+  "chapterId": "13",
+  "practices": [
+    {
+      "practiceId": "practice-013",
+      "title": "Education at LaLaport Shanghai",
+      "passage": "Time Out Shanghai welcomes you to a family day out at LaLaport. Let's start the school year by knowing our education.\n\n## Shanghai French School\n\nShanghai French School belongs to the AEFE (Agency for French Teaching Abroad) network. It is an international nonprofit school which welcomes 1,450 students of 45 nationalities, from pre-kindergarten to the French Baccalaureate (from 2 to 18 years old) on its Qingpu and Yangpu campuses. Students are taught in a multilingual system (French, English, and Chinese). Shanghai French School welcomes non-French-speaking families to join the school.\n\n## Little Wonder Academy\n\nA pre-school with a deep sense of responsibility, Little Wonder Academy (LWA) is staffed with a team of educators with warm hearts who are in service to a community of visionary parents. Running since 2011, the pioneer of pre-school education for 2 to 6-year-olds is now spread across three international campuses in Pudong.\n\n## Misty Mountain Art Space\n\nFounded in Shanghai, China, Misty Mountain Art Space (MMAspace) is committed to the international exchange and promotion(推广) of contemporary art. Students may sign up for modern painting classes and gain the opportunity to participate in art exhibitions as well as art sharing salons.\n\n## EACHILD\n\nHaving a beautiful environment, excellent teaching staff, and a rich variety of courses, EACHILD is a boutique nursery and a mature, high-quality brand in early childhood education. The pre-school focuses on moral education the formation of good habits, and the development of healthy learning abilities so each child may build a bright future for himself or herself.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "What can we know about Shanghai French School?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The ages of the students vary from 2 to 6 years old."
+            },
+            {
+              "id": "B",
+              "text": "It only welcomes kids from French-speaking families."
+            },
+            {
+              "id": "C",
+              "text": "The students can learn English, Chinese and French."
+            },
+            {
+              "id": "D",
+              "text": "There are over 1,500 students of 45 nationalities at school."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-002",
+          "text": "What is special about Misty Mountain Art Space?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It has a deep sense of responsibility for parents."
+            },
+            {
+              "id": "B",
+              "text": "It is devoted to international promotion of art."
+            },
+            {
+              "id": "C",
+              "text": "It is committed to early childhood education."
+            },
+            {
+              "id": "D",
+              "text": "It attaches much importance to moral education."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-003",
+          "text": "Which school is suitable for kids eager to develop a good habit?",
+          "options": [
+            {
+              "id": "A",
+              "text": "EACHILD."
+            },
+            {
+              "id": "B",
+              "text": "Shanghai French School."
+            },
+            {
+              "id": "C",
+              "text": "Little Wonder Academy."
+            },
+            {
+              "id": "D",
+              "text": "Misty Mountain Art Space."
+            }
+          ],
+          "correctAnswerId": "A"
+        }
+      ]
+    }
+  ]
+}

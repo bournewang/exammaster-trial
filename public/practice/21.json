@@ -1,0 +1,104 @@
+{
+  "chapterId": "21",
+  "practices": [
+    {
+      "practiceId": "practice-021",
+      "title": "Online Bike-Sharing Business in China",
+      "passage": "Recently, online bike-sharing has become the new favorite in China. In major cities, bikes in yellow, orange, blue, white and green, can be seen almost everywhere on the street. It seems that these bikes appeared suddenly, adding a new beautiful scenery to Chinese cities.\n\nBoth the market and the public welcome online bike-sharing, but is it really a promising business? Well, it depends. After all, online bike-sharing platforms can never get away with huge operating cost and uncertain government policy.\n\nSome theorists might say that online bike-sharing platforms can earn a fortune simply through deposit. Since users will always need to rent bikes, their deposit will always be kept to online bike-sharing platforms.\n\nHowever, although online bike-sharing platforms may be able to use the deposit for other purposes at the primary stage, they will have to set up a special account, so that the deposit shall be used specially for its designated(指定的) purpose. As the market gets increasingly mature, they will have to do so whether to be responsible for users or in consideration of possible government regulations.\n\nNow that online bike-sharing platforms can't make profit through deposit, how can they become profitable as fiercer market <u>unfolds</u>? Although Hu Weiwei, CEO of Mobike, stated in an article that she would take Mobike as charitable(慈善的) project if she failed, running a startup is absolutely different from managing a charity organization. After all, she has to pay back investors billions of investment(投资).\n\nTo make profit, online bike-sharing platforms might have to increase rent fee for each trip, just as Didi did. From this aspect, it might be a really good business. If we consider full screen ads fee, recommendation fee for business owners, etc., its annual income might reach at least RMB 15 billion. If we consider the huge operation cost, including bike repairs, bikes' service life and labor cost, there might not be much net profit left. After all, offline operation cost has always been an unbearable burden for such internet plus mode-based startups.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "How does the author feel about the future of online bike-sharing platforms?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Optimistic."
+            },
+            {
+              "id": "B",
+              "text": "Doubtful."
+            },
+            {
+              "id": "C",
+              "text": "Hopeful."
+            },
+            {
+              "id": "D",
+              "text": "Secure."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-002",
+          "text": "How do some theorists think online bike-sharing platforms can make money?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Through advertisements."
+            },
+            {
+              "id": "B",
+              "text": "Through services."
+            },
+            {
+              "id": "C",
+              "text": "Through deposit."
+            },
+            {
+              "id": "D",
+              "text": "Through investment."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-003",
+          "text": "How should deposit be dealt with when the market is mature according to the author?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Used for other purposes."
+            },
+            {
+              "id": "B",
+              "text": "Kept in a special account."
+            },
+            {
+              "id": "C",
+              "text": "Used for charity."
+            },
+            {
+              "id": "D",
+              "text": "Left aside to the users."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-004",
+          "text": "What does the underlined word \"unfolds\" mean in the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Shrinks."
+            },
+            {
+              "id": "B",
+              "text": "Spreads."
+            },
+            {
+              "id": "C",
+              "text": "Shows."
+            },
+            {
+              "id": "D",
+              "text": "Develops."
+            }
+          ],
+          "correctAnswerId": "D"
+        }
+      ]
+    }
+  ]
+}

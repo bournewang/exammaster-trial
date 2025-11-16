@@ -1,0 +1,104 @@
+{
+  "chapterId": "20",
+  "practices": [
+    {
+      "practiceId": "practice-020",
+      "title": "The Quiet Symphony - Book Review",
+      "passage": "In her latest novel, The Quiet Symphony, highly praised author Clara Bennett turns her gaze to the seemingly ordinary lives of small-town residents, weaving <u>a tapestry of emotions</u> that deeply connects with readers. Bennett's genius lies in her ability to find the extraordinary in the everyday, transforming simple moments into profound reflections on human connection and resilience(韧性).\n\nThe story unfolds in the fictional town of Willow Creek, where the lives of its inhabitants cross in unexpected ways. At its heart is Margaret, a retired schoolteacher whose quiet exterior hides a well of unspoken grief. Through Margaret's eyes, Bennett explores themes of loss, forgiveness, and the quiet strength required to rebuild one's life.\n\nThe novel's title, The Quiet Symphony, is a metaphor for the subtle yet powerful ways in which people's lives harmonize, even in the absence of grand gestures or dramatic events. Bennett's writing is both lyrical and understated, like a gentle breeze that carries the scent of blooming flowers. She avoids the trap of overly emotional writing, instead choosing a raw honesty that makes her characters feel achingly real. For instance, Margaret's struggle to come to terms with her past is portrayed with such delicacy that readers cannot help but see bits of their own lives reflected in hers.\n\nCritics have praised the novel for its emotional depth and careful attention to detail. However, some have argued that Bennett's focus on the ordinary may push away readers seeking more action-driven plots. Yet, this is precisely where the novel's strength lies: in its ability to remind us that life's most profound moments often occur in the quiet spaces between the noise.\n\nThe Quiet Symphony is not just a book; it is an invitation to pause and listen to the subtle melodies of our own lives. In a world that often values speed over stillness, Bennett's work is a gentle reminder of the beauty that lies in the everyday.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "What does the phrase \"a tapestry of emotions\" in paragraph 1 probably mean?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A series of dramatic events."
+            },
+            {
+              "id": "B",
+              "text": "A simple story of reflection."
+            },
+            {
+              "id": "C",
+              "text": "A web of interconnected feelings."
+            },
+            {
+              "id": "D",
+              "text": "A group of emotional characters."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-002",
+          "text": "What is a characteristic of Bennett's writing style mentioned in the text?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Raw and thrilling."
+            },
+            {
+              "id": "B",
+              "text": "Image-rich and simple."
+            },
+            {
+              "id": "C",
+              "text": "Over-dramatic and emotional."
+            },
+            {
+              "id": "D",
+              "text": "Humorous and light-hearted."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-003",
+          "text": "What do critics say about Bennett's focus on ordinary lives?",
+          "options": [
+            {
+              "id": "A",
+              "text": "It focuses too much on dramatic events."
+            },
+            {
+              "id": "B",
+              "text": "It lacks the emotional depth readers expect."
+            },
+            {
+              "id": "C",
+              "text": "It makes the novel more appealing to all readers."
+            },
+            {
+              "id": "D",
+              "text": "It probably won't attract fans of fast-paced stories."
+            }
+          ],
+          "correctAnswerId": "D"
+        },
+        {
+          "id": "q-004",
+          "text": "What is the author's primary purpose in writing this text?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To criticize Bennett's focus."
+            },
+            {
+              "id": "B",
+              "text": "To analyze the novel's plot."
+            },
+            {
+              "id": "C",
+              "text": "To highlight the novel's themes."
+            },
+            {
+              "id": "D",
+              "text": "To compare Bennett's works."
+            }
+          ],
+          "correctAnswerId": "C"
+        }
+      ]
+    }
+  ]
+}

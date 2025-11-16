@@ -1,0 +1,104 @@
+{
+  "chapterId": "15",
+  "practices": [
+    {
+      "practiceId": "practice-015",
+      "title": "Retail in Economic Downturn",
+      "passage": "The first clue came when I got my hair cut. The stylist offered not just the usual coffee or tea but a complimentary nail-polish change while I waited for my hair to dry. Maybe she hoped this little amenity(便利) would slow the growing inclination of women to stretch each haircut to last four months while nursing our hair back to whatever natural colour we long ago forgot.\n\nThen there was the appliance salesman who offered to carry my bags as we toured the microwave aisle. When I called my husband to ask him to check some specs online, the salesman offered a pre-emptive discount, lest the surfing turn up the same model cheaper in another store. That night, for the first time, I saw the Hyundai ad promising shoppers that if they buy a car and then lose their job in the next year, they can return it.\n\nSuddenly everything's on sale. The upside to the economic downturn is the immense incentive it gives retailer to treat you like a queen for a day. During the flush times, salespeople were surly, waiters snobby. But now the customer rules, just for showing up. There's more room to stretch out on the flight, even in a coach. The malls have that serene aura（氛围） of undisturbed wilderness, with scarcely a shopper in sight. Every conversation with anyone selling anything is a pantomime(闹剧) of pain and bluff. Finger the scarf, then start to walk away, and its price floats silkily downward. When the mechanic calls to tell you that brakes and a timing belt and other services will run close to $2,000, it's time to break out <u>the newly perfected art of the considered pause</u>. You really don't even have to say anything pitiful before he'll offer to knock a few hundred dollars off.\n\nRestaurants are also caught in a fit of ardent hospitality, especially around Wall Street: Trinity Place offers $3 drinks at happy hour any day the market goes down, with the slogan \"Market tanked? Get tanked!\" - which ensures a lively crowd for the closing bell. The \"21\" Club has decided that men no longer need to wear ties, so long as they bring their wallets. Food itself is friendlier: you notice more comfort food, a truce between chef and patron that is easier to enjoy now that you can get a table practically anywhere. New York Times restaurant reviewer Frank Bruni characterizes the new restaurant demeanor as \"extreme enthusiasm tinged with outright desperation.\" \"You need to hug the customer,\" one owner told him.\n\nThere is a chance that eventually we'll return all this kindness with the extravagant spending that was once decried but now everyone is hoping will restart the economy. But human nature is funny that way. In dangerous times, we clench and squint at the deal that looks too good to miss, suspecting that it must be too good to be true. Is the store with the super cheap flat screens going to go bust and thus not be there to honor the \"free\" extended warranty? Is there something wrong with that free cheese? Store owners will tell you horror stories about shoppers with attitude, who walk in demanding discounts and flaunt their new power at every turn. These store owners wince as they sense bad habit forming: Will people expect discounts forever? Will their hard-won brand luster be forever cheapened, especially for items whose allure depends on their being ridiculously priced?\n\nThere will surely come a day when things go back to \"normal\"; retail sales even inched up in January after sinking for the previous six months. But I wonder what it will take for us to see those $545 Sigerson Morrison studded toe-ring sandals as reasonable? Bargain-hunting can be addictive regardless of the state of the markets, and haggling is a low-risk, high-value contact sport. Trauma digs deep into habit, like my 85-year-old mother still calling her canned-goods cabinet \"the bomb shelter.\" The children of the First Depression were saving string and preaching sacrifice long after the skies cleared. They came to be called the \"greatest generation.\" As we learn to be decent stewards of our resources, who knows what might come of it? We have lived in an age of wanton waste, and there is value in practicing conservation that goes far beyond our own bottom line.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "According to the passage, what does \"the first clue\" suggest?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Shops, large or small, are offering big discounts."
+            },
+            {
+              "id": "B",
+              "text": "Women tend to have their hair cut less frequently."
+            },
+            {
+              "id": "C",
+              "text": "Shops try all kinds of means to please customers."
+            },
+            {
+              "id": "D",
+              "text": "Customers refrain from buying things impulsively."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-002",
+          "text": "Which of the following best depicts the retailers now?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Bad-tempered."
+            },
+            {
+              "id": "B",
+              "text": "Highly motivated."
+            },
+            {
+              "id": "C",
+              "text": "Over-friendly."
+            },
+            {
+              "id": "D",
+              "text": "Deeply frustrated."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-003",
+          "text": "What does the author mean by \"the newly perfected art of the considered pause\"?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Customers now rush to buy things on sale."
+            },
+            {
+              "id": "B",
+              "text": "Customers have got a sense of superiority."
+            },
+            {
+              "id": "C",
+              "text": "Customers have learned how to bargain."
+            },
+            {
+              "id": "D",
+              "text": "Customers have higher demands for service."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-004",
+          "text": "What is the author's main message in the last two paragraphs?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Extravagant spending would boost economic growth."
+            },
+            {
+              "id": "B",
+              "text": "One's life experience would turn into lifelong habits."
+            },
+            {
+              "id": "C",
+              "text": "Customers should expect discounts for luxury goods."
+            },
+            {
+              "id": "D",
+              "text": "The practice of being economical is of great importance."
+            }
+          ],
+          "correctAnswerId": "D"
+        }
+      ]
+    }
+  ]
+}

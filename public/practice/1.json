@@ -1,0 +1,45 @@
+{
+  "chapterId": "1",
+  "practices": [
+    {
+      "practiceId": "practice-001",
+      "title": "Service Civil International Volunteer Position",
+      "passage": "# Service Civil International is looking for a communication and campaign volunteer!\nSCI has been organising international volunteering projects for more than 100 years. SCI's goal is to promote a culture of peace by organising international volunteering projects with local and global impacts. The Communication and Volunteer Coordinator (CVC) will act as the direct supervisor(监管者).\n\n## Tasks\nThe communication and campaign volunteer will largely work with the CVC on communication within and outside the organisation. Tasks will include creating content online and offline for social media and prints, communicating with branches and partner organisations to encourage them to share their experience, as well as coming up with content for campaigns on social media. Other tasks like a personal project agreed upon with the CVC will also be covered.\n\n## Who are we looking for?\nAn applicant aged between 18-30 who has: an interest in the topics of human rights, volunteering and intercultural dialogue; an interest in learning the practical side of communication and promotion in an international non-governmental organisation; passion and knowledge in using social media tools; good English language skills and an interest in learning basic Dutch; creativity.\n\n## What do we offer you?\nA 12-month volunteer contract(合同) with SCI; a monthly volunteer allowance(津贴) of 380 EUR; a room in an apartment with shared facilities (living room, kitchen, bathroom); payment for the travel between Antwerp and your place of residence at the beginning and at the end of your service (up to 275 EUR); a bike sharing card to explore the beautiful city of Antwerp.\n\nIf you have any questions, send an email to communication@sci.ngo.",
+      "questions": [
+            {
+            "id": "q-001",
+            "text": "What is one responsibility of the wanted volunteer?",
+            "options": [
+                {"id": "A", "text": "Creating campaign content."},
+                {"id": "B", "text": "Sharing personal experience."},
+                {"id": "C", "text": "Supervising partner organisations."},
+                {"id": "D", "text": "Running an individual social media account."}
+            ],
+            "correctAnswerId": "A"
+            },
+            {
+            "id": "q-002",
+            "text": "Which of the following is provided to the communication volunteer?",
+            "options": [
+                {"id": "A", "text": "Free housing."},
+                {"id": "B", "text": "Dutch language training."},
+                {"id": "C", "text": "A car to explore Antwerp."},
+                {"id": "D", "text": "A weekly allowance of 380 EUR."}
+            ],
+            "correctAnswerId": "A"
+            },
+            {
+            "id": "q-003",
+            "text": "What is this text?",
+            "options": [
+                {"id": "A", "text": "An invitation to a SCI campaign."},
+                {"id": "B", "text": "An introduction to an organisation."},
+                {"id": "C", "text": "A report on international volunteering projects."},
+                {"id": "D", "text": "A job advertisement for a volunteering position."}
+            ],
+            "correctAnswerId": "D"
+            }
+        ]
+    }
+  ]
+}

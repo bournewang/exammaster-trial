@@ -1,0 +1,104 @@
+{
+  "chapterId": "6",
+  "practices": [
+    {
+      "practiceId": "practice-006",
+      "title": "Therapy Through Chess",
+      "passage": "Many years ago, when I was working in an institution in England, an adolescent boy walked up and down restlessly outside the waiting room.\n\nIt was in late autumn, and the lilac bush outside had shed all its leaves.\n\n\"Please sit down,\" I showed him into my office. No word was uttered. He just stared at his feet while wringing his hands nervously. David wore a black rain coat which was buttoned all the way up to his neck. His head teacher had referred him to me, and asked me to lend David a hand - He had lost his father as an infant, and last year, his grandfather died and his mother was killed in a car accident.\n\nHow could I? There are human tragedies my profession doesn't have the answer to! Sometimes the best thing one can do is to listen openly and sympathetically. The first time we met, David didn't say a word. As he was about to leave after the second visit, I put my hand on his shoulder. He didn't shrink back, not looking at me either.\n\n\"Come back next week, if you like.\" I said. \"I know it hurts.\"\n\nWhen he came the third time, I suggested we play a game of chess. He nodded. After that we played chess every Wednesday — in complete silence and without making any eye contact. It's not easy to cheat in chess, but I admit that I made sure David won once or twice. Usually, he arrived earlier than agreed, took the chessboard and pieces from the shelf and began setting them up before I sat down. It seemed as if he enjoyed my company. One afternoon in late winter, David took off his rain coat and put it on the back of the chair and he seemed more alive.\n\nSome months later, the lilacs blossomed outside. When I sat staring at David, who was bent over the chessboard, I thought about how little we know about therapy — about the mysterious process associated with healing. Suddenly, he looked up at me \"It's your turn,\" he said. After that, David started talking.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "Which is true about David's first meeting with the author?",
+          "options": [
+            {
+              "id": "A",
+              "text": "He said nothing"
+            },
+            {
+              "id": "B",
+              "text": "He just looked at his hands nervously."
+            },
+            {
+              "id": "C",
+              "text": "He came to lend a hand."
+            },
+            {
+              "id": "D",
+              "text": "He was accompanied by his teacher."
+            }
+          ],
+          "correctAnswerId": "A"
+        },
+        {
+          "id": "q-002",
+          "text": "What was the author most likely to be?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A surgeon."
+            },
+            {
+              "id": "B",
+              "text": "A chess coach."
+            },
+            {
+              "id": "C",
+              "text": "A psychologist."
+            },
+            {
+              "id": "D",
+              "text": "A head teacher."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-003",
+          "text": "What can be inferred from the last two paragraphs?",
+          "options": [
+            {
+              "id": "A",
+              "text": "The author knew little about the healing process."
+            },
+            {
+              "id": "B",
+              "text": "The author boosted David's confidence by design."
+            },
+            {
+              "id": "C",
+              "text": "David's earlier showing up dissatisfied the author."
+            },
+            {
+              "id": "D",
+              "text": "It is necessary to keep quiet when playing chess."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-004",
+          "text": "Which of the following is a suitable title for the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "David's Story Made Me Rethink."
+            },
+            {
+              "id": "B",
+              "text": "Be an Ear to Listen — The Golden Rule."
+            },
+            {
+              "id": "C",
+              "text": "Know about Yourself - Changes Matter."
+            },
+            {
+              "id": "D",
+              "text": "A Chess Game Moved Away Depression."
+            }
+          ],
+          "correctAnswerId": "D"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "chapterId": "12",
+  "practices": [
+    {
+      "practiceId": "practice-012",
+      "title": "Mother's Camp",
+      "passage": "Now some women are spending a weekend at Mother's Camp. There, husbands(丈夫) and children are not allowed. Why would a woman want to take a vacation without her family? Some women say they need time to be alone.\n\nAt Mother's Camp a woman has room to herself. She can sleep, read or watch TV, and no one will bother(打扰) her. No children will ask, \"Mom, what's for dinner?\" No husband will say, \"Oh, dear, I can't find any clean socks.\" In fact, almost 50% of women in the United States work outside the home. Many of them work full-time and then come home to a second job - taking care of their homes and families. These working women say one of their biggest problems is housework.\n\nIn the United States, working women do about 75% of the housework. Many of their husbands say they want to help. But then they burn the rice or they can't find the pans. They ask so many questions that their wives decide it is easier to do the job themselves.\n\nSome women go to Mothers Camp just to get a break from housework. For two days they don't cook, they don't clean, they don't look after their children or husbands. What do they do? They enjoy warm, sunny weather, walking, swimming or boating in a clear blue lake and sing songs around the campfire. They relax away from home. They have a really wonderful vacation at Mothers Camp.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "How long can women enjoy their vacation at Mothers Camp?",
+          "options": [
+            {
+              "id": "A",
+              "text": "One month."
+            },
+            {
+              "id": "B",
+              "text": "A week."
+            },
+            {
+              "id": "C",
+              "text": "72 hours."
+            },
+            {
+              "id": "D",
+              "text": "Two days."
+            }
+          ],
+          "correctAnswerId": "D"
+        },
+        {
+          "id": "q-002",
+          "text": "What do women do at Mother's Camp?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They cook dinner."
+            },
+            {
+              "id": "B",
+              "text": "They boat in a clear blue lake."
+            },
+            {
+              "id": "C",
+              "text": "They do some cleaning."
+            },
+            {
+              "id": "D",
+              "text": "They look after their children."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-003",
+          "text": "What can we know about women in the United States from this passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "They don't need to do any housework."
+            },
+            {
+              "id": "B",
+              "text": "They want to get a break from housework."
+            },
+            {
+              "id": "C",
+              "text": "They dislike to stay at home with their families."
+            },
+            {
+              "id": "D",
+              "text": "They do as much housework as their husband."
+            }
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-004",
+          "text": "What's the best title（标题） for this passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Busy Working Mothers"
+            },
+            {
+              "id": "B",
+              "text": "Mothers in the US"
+            },
+            {
+              "id": "C",
+              "text": "Mothers Relax Away from Home"
+            },
+            {
+              "id": "D",
+              "text": "Mother's Camp in the UK"
+            }
+          ],
+          "correctAnswerId": "C"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "chapterId": "2",
+  "practices": [
+    {
+      "practiceId": "practice-002",
+      "passage": "The National Archives(档案馆) needs help from people with a special set of skills - reading cursive(草书). The archival office is seeking volunteer citizen archivists to help them classify and/or transcribe(转录) more than 200 years' worth of handwritten historical documents. Most of these are from the Independence War-period, known for rounded and flowing handwriting.\n\n\"Reading cursive is a superpower,\" Suzanne Isaacs, a community manager with the National Archives Collection told USA Today. \"It's not just a matter of whether you learned cursive in school, but it's how much you use cursive today.\" Isaacs oversees over 5,000 citizen archivists that help read and transcribe some of the more than 300 million digitized objects within its collection. Volunteers can help with everything from retirement records, field notes made by geographers working on the Mason-Dixon line, to movement and population records.\n\nInterested volunteers can sign up online, no application required. Reading cursive text can help, but it is not required for some of the records. Independence War retirement records have a \"no cursive required option,\" where volunteers can help label the ones that have already been transcribed so that it will be easier to find them.\n\nCursive writing was once a standard in US classrooms, with handwriting graded, but it declined with the rise of typewriters and computers. By 2010, Common Core had prioritized keyboard typing, though 14 states still require cursive instruction. In 2023, California passed a law requiring the teaching of \"cursive or joined italics\" from first to sixth grade, citing the importance of reading historical documents like those in the National Archives.\n\nBrain expert Claudia Aguirre noted that cursive writing, compared to typing, activates brain pathways that support learning and language development. Research shows handwriting is better than typing for memory and learning, though the benefits are just tied to writing, and not specifically to cursive over print.\n\nThe National Archives says AI is improving when it comes to reading cursive but human help is still needed.\n\nIssues like marks, ink bleeding, and older letter forms make human editors essential for final corrections.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "What can volunteers do to help with documents?",
+          "options": [
+            {"id": "A", "text": "Label and type."},
+            {"id": "B", "text": "Study and apply."},
+            {"id": "C", "text": "Categorize and transcribe."},
+            {"id": "D", "text": "Digitize and archive."}
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-002",
+          "text": "What does paragraph 4 focus on?",
+          "options": [
+            {"id": "A", "text": "Explaining how cursive writing enhances memory."},
+            {"id": "B", "text": "Showing the decline and return of cursive writing."},
+            {"id": "C", "text": "Describing the advantages of typing over handwriting."},
+            {"id": "D", "text": "Highlighting the role of reading cursive in education."}
+          ],
+          "correctAnswerId": "B"
+        },
+        {
+          "id": "q-003",
+          "text": "What is Claudia Aguirre's opinion about cursive writing?",
+          "options": [
+            {"id": "A", "text": "It is no match for typing at improving memory."},
+            {"id": "B", "text": "It benefits the advancement of writing skills."},
+            {"id": "C", "text": "It is more effective than typing for certain tasks."},
+            {"id": "D", "text": "It helps strengthen brain functions related to learning."}
+          ],
+          "correctAnswerId": "D"
+        },
+        {
+          "id": "q-004",
+          "text": "Why does cursive reading need human assistance as AI improves?",
+          "options": [
+            {"id": "A", "text": "People have better cursive writing skills."},
+            {"id": "B", "text": "People handle digitized objects more often."},
+            {"id": "C", "text": "AI struggles with messy and old handwriting."},
+            {"id": "D", "text": "AI has limited knowledge of historical documents."}
+          ],
+          "correctAnswerId": "C"
+        }
+      ]
+    }
+  ]
+}

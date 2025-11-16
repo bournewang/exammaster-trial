@@ -1,0 +1,104 @@
+{
+  "chapterId": "19",
+  "practices": [
+    {
+      "practiceId": "practice-019",
+      "title": "Working Mothers in China",
+      "passage": "A report revealed that about 85% of the working mothers surveyed felt that their parenthood had affected their career \"in a significant way\". Over 30% of them said that they went through a \"long period of mental distress\" before announcing their pregnancy at work, and 35% said their bosses immediately started looking for their replacements after learning about their pregnancy.\n\nWhile Chinese women may no longer sacrifice their careers for their husbands, they are still expected to do so for their children. The study found that nearly half of the mothers left the labor force for at least one year after giving birth, among whom roughly 20% ended up becoming stay-at-home moms. When asked about the impact of motherhood on their identities and life goals, nearly 35% said that the most profound change was how they started to balance between family and work.\n\nThe adjustment, however, is not always by choice. Responding to a question about the distribution of child-care labor in their home, almost 40% of the working mothers said that their husbands basically spent no time on parenting. Moreover, over half of the husbands didn't use up their paternity leave(陪产假), whereas about 21 percent never took it at all.\n\nAnother key finding from the survey was that although it's illegal for Chinese companies to ask a woman about family plans, many employers still do. The unlawful yet <u>prevalent</u> practice has been a main factor influencing women's decisions about timing of motherhood. The survey showed that about 40% of the childless respondents delayed parenthood because of \"the time it would take,\" which they thought would have a negative impact on their promotion opportunities.\n\nIn theory, there has never been a better time than now for working mothers in China to shine. Faced with an aging population and shrinking workforce, Chinese officials encourage Chinese women to have babies while working at the same time.",
+      "questions": [
+        {
+          "id": "q-001",
+          "text": "What can be concluded from the first paragraph?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Some women choose to hide their pregnancy."
+            },
+            {
+              "id": "B",
+              "text": "Pregnant working women will be replaced immediately."
+            },
+            {
+              "id": "C",
+              "text": "Half of working mothers go through long-term depression."
+            },
+            {
+              "id": "D",
+              "text": "Most working mothers are significantly affected by parenthood."
+            }
+          ],
+          "correctAnswerId": "D"
+        },
+        {
+          "id": "q-002",
+          "text": "What are Chinese women expected to do according to the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "To help their husbands' career."
+            },
+            {
+              "id": "B",
+              "text": "To become stay-at-home moms."
+            },
+            {
+              "id": "C",
+              "text": "To sacrifice their careers for their children."
+            },
+            {
+              "id": "D",
+              "text": "To be successful both at home and in company."
+            }
+          ],
+          "correctAnswerId": "C"
+        },
+        {
+          "id": "q-003",
+          "text": "Which of the following can replace the underlined word \"prevalent\"?",
+          "options": [
+            {
+              "id": "A",
+              "text": "common"
+            },
+            {
+              "id": "B",
+              "text": "obvious"
+            },
+            {
+              "id": "C",
+              "text": "embarrassing"
+            },
+            {
+              "id": "D",
+              "text": "potential"
+            }
+          ],
+          "correctAnswerId": "A"
+        },
+        {
+          "id": "q-004",
+          "text": "What is the main idea of the passage?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Women have greater pressure than men."
+            },
+            {
+              "id": "B",
+              "text": "Pregnancy and motherhood affect working women."
+            },
+            {
+              "id": "C",
+              "text": "Balance between work and family is unavailable."
+            },
+            {
+              "id": "D",
+              "text": "Working moms have less promotion opportunities."
+            }
+          ],
+          "correctAnswerId": "B"
+        }
+      ]
+    }
+  ]
+}

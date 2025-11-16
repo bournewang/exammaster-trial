@@ -1,0 +1,19 @@
+-- Migration: create users table
+
+CREATE TABLE IF NOT EXISTS users (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+
+  -- identity
+  code VARCHAR(64) NOT NULL,
+  name VARCHAR(100) NULL,
+  email VARCHAR(255) NULL,
+  grade VARCHAR(20) NULL,
+
+  created_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+  updated_at DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3)
+    ON UPDATE CURRENT_TIMESTAMP(3),
+
+  PRIMARY KEY (id),
+  UNIQUE KEY uk_users_code (code),
+  UNIQUE KEY uk_users_email (email)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
