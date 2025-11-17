@@ -28,6 +28,9 @@ from typing import Any, Dict, Optional
 
 from flask import Flask, jsonify, request
 
+# Load environment variables from .env file
+import config  # noqa: F401
+
 from code_verifier import is_code_valid, verify_code_format
 from db import Database, UserRepository, UserCourseProgressRepository
 
