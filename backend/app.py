@@ -70,6 +70,24 @@ def verify_code_endpoint():
             400,
         )
 
+    # Check if token exists in request and verify it first
+    token = _extract_token_from_request()
+    if token:
+        try:
+            user_obj = _user_repo.get_by_token(token)
+        except Exception as exc:  # pragma: no cover - defensive logging
+            app.logger.exception("Failed to load user by token", exc_info=exc)
+            return jsonify({
+                "valid": False,
+                "message": "Failed to verify token",
+            }), 500
+
+        if user_obj is None:
+            return jsonify({"valid": False, "message": "Invalid or expired token"}), 401
+
+        # Token is valid, return the existing user
+        return jsonify({"valid": True, "user": user_obj.to_dict()}), 200
+
     code = payload.get("code")
     if not isinstance(code, str) or not code.strip():
         return (

@@ -13,15 +13,21 @@ export const useLessonStore = create((set) => ({
   error: null,
 
   fetchLessons: async () => {
-    set({ loading: true, error: null });
-    try {
-      const response = await fetch('/courses.json');
-      if (!response.ok) throw new Error('Failed to fetch courses');
-      const courses = await response.json();
-      set({ lessons: courses, loading: false });
-    } catch (error) {
-      set({ error: error.message, loading: false });
-    }
+    return new Promise((resolve, reject) => {
+      set({ loading: true, error: null });
+      (async () => {
+        try {
+          const response = await fetch('/courses.json');
+          if (!response.ok) throw new Error('Failed to fetch courses');
+          const courses = await response.json();
+          set({ lessons: courses, loading: false });
+          resolve(courses);
+        } catch (error) {
+          set({ error: error.message, loading: false });
+          reject(error);
+        }
+      })();
+    });
   },
 
   setCurrentLesson: (lessonId) => {

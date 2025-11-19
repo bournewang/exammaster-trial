@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 from dataclasses import dataclass, asdict
+from datetime import datetime, timedelta
 from typing import Any, Dict, Optional, List
 
 import pymysql
@@ -61,9 +62,13 @@ class User:
     email: Optional[str] = None
     grade: Optional[str] = None
     token: Optional[str] = None
+    token_expires_at: Optional[datetime] = None
 
     def to_dict(self) -> Dict[str, Any]:
-        return asdict(self)
+        data = asdict(self)
+        if self.token_expires_at is not None:
+            data["token_expires_at"] = self.token_expires_at.isoformat()
+        return data
 
 
 @dataclass
@@ -104,7 +109,7 @@ class UserRepository:
         with self._db.get_connection() as conn:
             with conn.cursor() as cursor:
                 cursor.execute(
-                    "SELECT id, code, name, email, grade, token FROM users WHERE code = %s",
+                    "SELECT id, code, name, email, grade, token, token_expires_at FROM users WHERE code = %s",
                     (code,),
                 )
                 row = cursor.fetchone()
@@ -118,6 +123,7 @@ class UserRepository:
                     email=row.get("email"),
                     grade=row.get("grade"),
                     token=row.get("token"),
+                    token_expires_at=row.get("token_expires_at"),
                 )
 
     def create(self, code: str, name: Optional[str] = None, token: Optional[str] = None) -> User:
@@ -139,16 +145,21 @@ class UserRepository:
                 )
 
     def get_by_token(self, token: str) -> Optional[User]:
-        """Retrieve user by authentication token."""
+        """Retrieve user by authentication token if it hasn't expired."""
         with self._db.get_connection() as conn:
             with conn.cursor() as cursor:
                 cursor.execute(
-                    "SELECT id, code, name, email, grade, token FROM users WHERE token = %s",
+                    "SELECT id, code, name, email, grade, token, token_expires_at FROM users WHERE token = %s",
                     (token,),
                 )
                 row = cursor.fetchone()
                 if not row:
                     return None
+
+                # Check if token has expired
+                expires_at = row.get("token_expires_at")
+                if expires_at and expires_at < datetime.now():
+                    return None  # Token expired
 
                 return User(
                     id=row["id"],
@@ -157,15 +168,18 @@ class UserRepository:
                     email=row.get("email"),
                     grade=row.get("grade"),
                     token=row.get("token"),
+                    token_expires_at=expires_at,
                 )
 
     def update_token(self, user_id: int, token: str) -> None:
-        """Update the token for a user."""
+        """Update the token for a user with 2-day expiration."""
+        # Set token to expire in 2 days
+        expires_at = datetime.now() + timedelta(days=2)
         with self._db.get_connection() as conn:
             with conn.cursor() as cursor:
                 cursor.execute(
-                    "UPDATE users SET token = %s WHERE id = %s",
-                    (token, user_id),
+                    "UPDATE users SET token = %s, token_expires_at = %s WHERE id = %s",
+                    (token, expires_at, user_id),
                 )
 
     def get_or_create_by_code(self, code: str, default_name: str = "Exam User") -> User:

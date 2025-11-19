@@ -60,7 +60,7 @@ export default function LessonList() {
       <header className="bg-white shadow sticky top-0 z-40">
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <BookOpen className="text-blue-500" size={28} />
+            <img src="/logo.png" alt="Exam Master Logo" className="h-8 w-8" />
             <h1 className="text-2xl font-bold text-gray-800">考试大师</h1>
           </div>
           <div className="flex items-center gap-4">

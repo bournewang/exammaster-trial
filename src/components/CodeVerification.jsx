@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../store/authStore';
 import { verifyCodeFormat } from '../utils/codeVerification';
+import { getToken } from '../utils/auth';
+import { clearAuthData } from '../utils/auth';
 import { CheckCircle } from 'lucide-react';
+
+const CODE_VERIFY_ENDPOINT = import.meta.env.VITE_CODE_VERIFY_ENDPOINT || '/api/verify-code';
 
 export default function CodeVerification() {
   const [code, setCode] = useState('');
@@ -11,6 +15,42 @@ export default function CodeVerification() {
   const navigate = useNavigate();
 
   const verifyCode = useAuthStore((state) => state.verifyCode);
+  const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
+
+  // If a token exists and is valid, skip code verification
+  useEffect(() => {
+    if (isAuthenticated) {
+      navigate('/lessons');
+      return;
+    }
+
+    const token = getToken();
+    if (!token) return;
+
+    const checkToken = async () => {
+      try {
+        const response = await fetch(CODE_VERIFY_ENDPOINT, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${token}`,
+          },
+          body: JSON.stringify({}),
+        });
+        const data = await response.json().catch(() => ({}));
+        if (data && data.valid) {
+          navigate('/lessons');
+        } else if (data && data.message === 'Invalid or expired token') {
+          // Token is expired, clear it and show code verification form
+          clearAuthData();
+        }
+      } catch (e) {
+        // Ignore errors; user will see the code verification form
+      }
+    };
+
+    checkToken();
+  }, [isAuthenticated, navigate]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

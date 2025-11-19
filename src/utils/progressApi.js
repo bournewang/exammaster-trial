@@ -4,7 +4,7 @@
 //   VITE_PROGRESS_ENDPOINT, e.g. http://127.0.0.1:8000/api/course-progress
 // Fallback: /api/course-progress (useful when running behind a dev proxy).
 
-import { getToken } from './auth';
+import { getToken, clearAuthData } from './auth';
 
 const PROGRESS_ENDPOINT = import.meta.env.VITE_PROGRESS_ENDPOINT || '/api/course-progress';
 
@@ -69,10 +69,20 @@ export async function updateCourseProgress({
       body: JSON.stringify(payload),
     });
 
-    // Swallow errors quietly; logging is enough for debugging.
     if (!res.ok) {
+      const text = await res.text();
+      try {
+        const data = JSON.parse(text);
+        if (data.message === 'Invalid or expired token') {
+          clearAuthData();
+          window.location.href = '/';
+          return;
+        }
+      } catch (e) {
+        // Ignore parse errors
+      }
       // eslint-disable-next-line no-console
-      console.warn('Failed to update course progress', await res.text());
+      console.warn('Failed to update course progress', text);
     }
   } catch (err) {
     // eslint-disable-next-line no-console
@@ -95,6 +105,14 @@ export async function fetchCourseProgressForUser(userId) {
 
   const res = await fetch(url, { headers: getHeaders() });
   const data = await res.json().catch(() => ({}));
+
+  // Check for token expiration
+  if (data.message === 'Invalid or expired token') {
+    clearAuthData();
+    // Redirect to login by throwing error that will be caught upstream
+    window.location.href = '/';
+    throw new Error('Token expired. Please log in again.');
+  }
 
   if (!res.ok || !data.success) {
     throw new Error(data.message || 'Failed to fetch course progress');

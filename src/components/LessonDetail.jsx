@@ -3,14 +3,18 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useLessonStore } from '../store/lessonStore';
 import { useAuthStore } from '../store/authStore';
 import { updateCourseProgress } from '../utils/progressApi';
-import { Play, Pause, Volume2, Maximize2, ArrowLeft } from 'lucide-react';
+import { Play, Pause, Volume2, Maximize2, ArrowLeft, Loader } from 'lucide-react';
 
 export default function LessonDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const lessons = useLessonStore((state) => state.lessons);
   const currentLesson = useLessonStore((state) => state.currentLesson);
+  const setCurrentLesson = useLessonStore((state) => state.setCurrentLesson);
+  const fetchLessons = useLessonStore((state) => state.fetchLessons);
   const fetchPractice = useLessonStore((state) => state.fetchPractice);
   const courseProgress = useLessonStore((state) => state.courseProgress);
+  const loading = useLessonStore((state) => state.loading);
   const user = useAuthStore((state) => state.user);
   const videoRef = useRef(null);
 
@@ -20,35 +24,48 @@ export default function LessonDetail() {
   const [volume, setVolume] = useState(1);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
-  // Track the last reported progress percentage to avoid spamming the API.
   const lastReportedPercentRef = useRef(0);
-  // Ensure we only resume once per lesson load.
   const hasResumedRef = useRef(false);
 
-  const lesson = currentLesson;
+  // Load lessons if not already loaded
+  useEffect(() => {
+    const loadLessons = async () => {
+      if (lessons.length === 0) {
+        try {
+          await fetchLessons();
+        } catch (error) {
+          console.error('Failed to fetch lessons:', error);
+        }
+      }
+    };
+    loadLessons();
+  }, [lessons.length, fetchLessons]);
+
+  // Set current lesson when lessons are available and id changes
+  useEffect(() => {
+    if (lessons.length > 0) {
+      const lesson = lessons.find(l => String(l.id) === String(id));
+      if (lesson) {
+        setCurrentLesson(parseInt(id, 10));
+      }
+    }
+  }, [id, lessons, setCurrentLesson]);
+
+  const lesson = currentLesson || lessons.find(l => String(l.id) === String(id));
 
   // Auto-play video when component loads
   useEffect(() => {
-    if (videoRef.current) {
+    if (videoRef.current && lesson) {
       videoRef.current.play().catch((error) => {
         console.log('Autoplay failed:', error);
       });
       setIsPlaying(true);
     }
-    // Reset last reported progress whenever the lesson changes
     lastReportedPercentRef.current = 0;
     hasResumedRef.current = false;
   }, [lesson?.id]);
 
-  if (!lesson) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <p className="text-gray-600">Lesson not found</p>
-      </div>
-    );
-  }
-
-  // Resume playback position based on stored progress_percent (if between 0 and 100).
+  // Resume playback position
   useEffect(() => {
     if (!videoRef.current || !duration || !lesson || !user) return;
 
@@ -56,7 +73,6 @@ export default function LessonDetail() {
     if (!progressRow || typeof progressRow.progress_percent !== 'number') return;
 
     const p = progressRow.progress_percent;
-    // Only resume if partially watched
     if (p <= 0 || p >= 100) return;
     if (hasResumedRef.current) return;
 
@@ -91,7 +107,6 @@ export default function LessonDetail() {
     const percent = (current / duration) * 100;
     const rounded = Math.max(0, Math.min(100, Math.round(percent)));
 
-    // Only send when progress moves forward by at least 5% (or reaches 100%).
     const last = lastReportedPercentRef.current;
     if (rounded <= last) return;
     if (rounded < 100 && rounded - last < 5) return;
@@ -137,8 +152,10 @@ export default function LessonDetail() {
   };
 
   const handlePracticeClick = async () => {
-    await fetchPractice(lesson.id);
-    navigate(`/practice/${lesson.id}`);
+    if (lesson) {
+      await fetchPractice(lesson.id);
+      navigate(`/practice/${lesson.id}`);
+    }
   };
 
   const formatTime = (time) => {
@@ -149,6 +166,31 @@ export default function LessonDetail() {
   };
 
   const progressPercent = duration ? (currentTime / duration) * 100 : 0;
+
+  // Render loading state
+  if (loading || (!lesson && lessons.length === 0)) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="flex items-center gap-2 text-gray-600">
+          <Loader className="animate-spin" size={24} /> Loading...
+        </div>
+      </div>
+    );
+  }
+
+  // Render not found state
+  if (!lesson && lessons.length > 0) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <p className="text-gray-600">Lesson not found</p>
+      </div>
+    );
+  }
+
+  // Render main content
+  if (!lesson) {
+    return null;
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -187,7 +229,6 @@ export default function LessonDetail() {
               onLoadedMetadata={handleLoadedMetadata}
               onEnded={() => {
                 setIsPlaying(false);
-                // Ensure we record 100% watch progress when the video finishes.
                 if (lesson && user) {
                   lastReportedPercentRef.current = 100;
                   updateCourseProgress({
@@ -271,7 +312,7 @@ export default function LessonDetail() {
         {/* Lesson Info */}
         <div className="grid grid-cols-2 gap-6 mb-8">
           <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="text-gray-600 font-semibold mb-2">時長</h3>
+            <h3 className="text-gray-600 font-semibold mb-2">时长</h3>
             <p className="text-3xl font-bold text-blue-500">{lesson.duration ? Math.floor(lesson.duration / 60) + ' 分钟' : 'N/A'}</p>
           </div>
 
