@@ -47,12 +47,44 @@ _user_repo = UserRepository(_db)
 _progress_repo = UserCourseProgressRepository(_db)
 
 
-# --- CORS handling for local development ---
+# --- CORS handling ---
+def _get_allowed_origins() -> list[str]:
+    """Parse allowed origins from CORS_ALLOW_ORIGIN env variable.
+    
+    Format: comma-separated list of origins
+    Example: http://localhost:5174,https://example.com,https://app.example.com
+    Special value '*' allows all origins (not recommended for production)
+    """
+    cors_env = os.getenv("CORS_ALLOW_ORIGIN", "*")
+    if cors_env == "*":
+        return ["*"]
+    return [origin.strip() for origin in cors_env.split(",") if origin.strip()]
+
+
 @app.after_request
 def add_cors_headers(response):  # type: ignore[override]
-    response.headers["Access-Control-Allow-Origin"] = os.getenv("CORS_ALLOW_ORIGIN", "*")
+    allowed_origins = _get_allowed_origins()
+    origin = request.headers.get("Origin")
+    
+    # Check if origin is allowed
+    if "*" in allowed_origins:
+        # Allow all origins
+        response.headers["Access-Control-Allow-Origin"] = "*"
+    elif origin and origin in allowed_origins:
+        # Allow specific origin
+        response.headers["Access-Control-Allow-Origin"] = origin
+    elif allowed_origins and origin:
+        # Check for wildcard domain matching (e.g., *.example.com)
+        for allowed in allowed_origins:
+            if allowed.startswith("*."):
+                domain_part = allowed[2:]  # Remove '*.' prefix
+                if origin.endswith(domain_part):
+                    response.headers["Access-Control-Allow-Origin"] = origin
+                    break
+    
     response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
     response.headers["Access-Control-Allow-Methods"] = "GET, POST, OPTIONS"
+    response.headers["Access-Control-Allow-Credentials"] = "true"
     return response
 
 

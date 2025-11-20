@@ -58,14 +58,14 @@ export default function CodeVerification() {
     setIsVerifying(true);
 
     if (!code) {
-      setError('Please enter the verification code');
+      setError('请输入课程码');
       setIsVerifying(false);
       return;
     }
 
     // Basic client-side format check (server will perform the actual verification)
     if (!verifyCodeFormat(code)) {
-      setError('Code format must be like T00010-8AB');
+      setError('课程码格式类似：T00010-8AB');
       setIsVerifying(false);
       return;
     }
@@ -75,10 +75,10 @@ export default function CodeVerification() {
       if (result) {
         navigate('/lessons');
       } else {
-        setError('Verification failed. Please check your code and try again.');
+        setError('验证失败，请重新输入课程码。');
       }
     } catch (err) {
-      setError(err.message || 'Verification failed. Please try again.');
+      setError(err.message || '验证失败，请重试！');
     } finally {
       setIsVerifying(false);
     }
@@ -86,16 +86,17 @@ export default function CodeVerification() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center p-4">
-      <div className="bg-white rounded-lg shadow-2xl p-8 w-full max-w-md">
-        <div className="flex justify-center mb-8">
-          <div className="bg-blue-500 p-3 rounded-lg">
-            <CheckCircle className="text-white" size={32} />
+      <div className="bg-white rounded-lg shadow-2xl p-4 w-full max-w-md">
+        <div className="flex justify-center mb-4">
+          <div className=" p-3 rounded-lg">
+            {/* <CheckCircle className="text-white" size={32} /> */}
+            <img src="/logo.png" alt="考试大师" className="h-24 w-24" />
           </div>
         </div>
 
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-2">输入试用码</h1>
+        <h1 className="text-2xl font-bold text-center text-gray-800 mb-2">考试大师，专注中高考快速提分</h1>
         <p className="text-center text-gray-600 mb-8">
-          输入提供给您的试用码
+          输入提供给您的课程码
         </p>
 
         {error && (
@@ -106,7 +107,7 @@ export default function CodeVerification() {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            {/* <label className="block text-gray-700 font-semibold mb-2">验证试用码</label> */}
+            {/* <label className="block text-gray-700 font-semibold mb-2">验证课程码</label> */}
             <input
               type="text"
               value={code}
@@ -119,7 +120,7 @@ export default function CodeVerification() {
                 )
               }
               className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 text-center text-2xl tracking-widest font-bold"
-              placeholder="T00010-8AB"
+              placeholder="XXXXXX-XXX"
               maxLength="10"
               disabled={isVerifying}
             />
@@ -130,7 +131,7 @@ export default function CodeVerification() {
             disabled={isVerifying}
             className="w-full bg-blue-500 hover:bg-blue-600 disabled:bg-gray-400 text-white font-bold py-3 rounded-lg transition duration-200"
           >
-            {isVerifying ? '验证中...' : '验证试用码'}
+            {isVerifying ? '验证中...' : '进入课程'}
           </button>
         </form>
       </div>

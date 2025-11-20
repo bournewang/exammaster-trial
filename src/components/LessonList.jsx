@@ -7,6 +7,7 @@ import { Play, BookOpen, LogOut, Loader, BookMarked, CheckCircle, Circle } from 
 export default function LessonList() {
   const navigate = useNavigate();
   const lessons = useLessonStore((state) => state.lessons);
+  const courseMeta = useLessonStore((state) => state.courseMeta);
   const loading = useLessonStore((state) => state.loading);
   const fetchLessons = useLessonStore((state) => state.fetchLessons);
   const setCurrentLesson = useLessonStore((state) => state.setCurrentLesson);
@@ -59,9 +60,11 @@ export default function LessonList() {
       {/* Header */}
       <header className="bg-white shadow sticky top-0 z-40">
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-3">
             <img src="/logo.png" alt="Exam Master Logo" className="h-8 w-8" />
-            <h1 className="text-2xl font-bold text-gray-800">考试大师</h1>
+            <div>
+              <h1 className="text-2xl font-bold text-gray-800">考试大师，专注中高考快速提分</h1>
+            </div>
           </div>
           <div className="flex items-center gap-4">
             <span className="text-gray-700 text-sm">欢迎, {user?.name}!</span>
@@ -79,7 +82,7 @@ export default function LessonList() {
       {/* Main Content */}
       <main className="max-w-6xl mx-auto px-4 py-8">
         <div className="mb-8">
-          <h2 className="text-3xl font-bold text-gray-800 mb-2">课程</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">{courseMeta?.title}</h2>
           <p className="text-gray-600">点击播放以开始课程或点击练习以进入练习模式</p>
         </div>
 

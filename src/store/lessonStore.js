@@ -3,6 +3,7 @@ import { fetchCourseProgressForUser } from '../utils/progressApi';
 
 export const useLessonStore = create((set) => ({
   lessons: [],
+  courseMeta: null, // { title, grade }
   currentLesson: null,
   currentPractice: null,
   practiceData: null,
@@ -19,8 +20,10 @@ export const useLessonStore = create((set) => ({
         try {
           const response = await fetch('/courses.json');
           if (!response.ok) throw new Error('Failed to fetch courses');
-          const courses = await response.json();
-          set({ lessons: courses, loading: false });
+          const payload = await response.json();
+          const meta = payload?.meta || null;
+          const courses = Array.isArray(payload?.courses) ? payload.courses : [];
+          set({ lessons: courses, courseMeta: meta, loading: false });
           resolve(courses);
         } catch (error) {
           set({ error: error.message, loading: false });
